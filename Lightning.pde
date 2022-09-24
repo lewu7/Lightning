@@ -48,7 +48,7 @@ void draw(){
    ellipse(157 + cloudX,78,60,60);
    ellipse(182 + cloudX,92,50,50);
    ellipse(125 + cloudX,104,140,70);
-    
+   
    ellipse(634 - cloudX,127,100,40);
    ellipse(606 - cloudX,138,50,10);
    ellipse(655 - cloudX,106,60,60);
@@ -73,13 +73,15 @@ void draw(){
   curveVertex(469,383);
   curveVertex(360,412);
   curveVertex(228,461);
-  curveVertex(110,520);
-  vertex(29,561);
-  vertex(50,638);
-  vertex(84,699);
-  vertex(748,698);
-  vertex(749,321);
-  endShape(); 
+  curveVertex(29,561);
+  curveVertex(50,638);
+  curveVertex(84,699);
+  curveVertex(748,698);
+  curveVertex(749,321);
+  curveVertex(750,340);
+  curveVertex(635,346);
+  curveVertex(585,356);
+  endShape();  
   
   //trees
   strokeWeight(2);
