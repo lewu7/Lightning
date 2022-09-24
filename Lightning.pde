@@ -65,6 +65,21 @@ void draw(){
      smt = 0;
      cloudX = 0;
    }
+  //land
+  fill(77,77,106);
+  beginShape();
+  curveVertex(749,321);
+  curveVertex(588,352);
+  curveVertex(469,383);
+  curveVertex(360,412);
+  curveVertex(228,461);
+  curveVertex(110,520);
+  vertex(29,561);
+  vertex(50,638);
+  vertex(84,699);
+  vertex(748,698);
+  vertex(749,321);
+  endShape(); 
   
   //trees
   strokeWeight(2);
@@ -140,22 +155,6 @@ void draw(){
   vertex(0,282);
   vertex(0,700);
   endShape();
-  
-  //land
-  fill(77,77,106);
-  beginShape();
-  curveVertex(749,321);
-  curveVertex(588,352);
-  curveVertex(469,383);
-  curveVertex(360,412);
-  curveVertex(228,461);
-  curveVertex(110,520);
-  vertex(29,561);
-  vertex(50,638);
-  vertex(84,699);
-  vertex(748,698);
-  vertex(749,321);
-  endShape(); 
   
   //tombstone
   fill(140,138,165);
