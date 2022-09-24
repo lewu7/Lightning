@@ -37,27 +37,27 @@ void draw(){
     smooth();
     noStroke();
     fill(204,226,234); //styling
-    circle(30 + cloudX,115, 60);
+    ellipse(30 + cloudX,115, 60,60);
     ellipse(200 + smt,130, 100, 36);
     ellipse(205 + cloudX,107,50,40);
-    circle(173 + cloudX,138,40);
+    ellipse(173 + cloudX,138,40,40);
     ellipse(110 + cloudX,125,150,70);
     ellipse(40 + cloudX,134,100,30);
-    circle(61 + cloudX,82,70);
-    circle(93 + cloudX,63,65);
-    circle(127 + cloudX,54,40);
-    circle(157 + cloudX,78,60);
-    circle(182 + cloudX,92,50);
+    ellipse(61 + cloudX,82,70,70);
+    ellipse(93 + cloudX,63,65,65);
+    ellipse(127 + cloudX,54,40,40);
+    ellipse(157 + cloudX,78,60,60);
+    ellipse(182 + cloudX,92,50,50);
     ellipse(125 + cloudX,104,140,70);
     
     ellipse(634 - cloudX,127,100,40);
     ellipse(606 - cloudX,138,50,10);
-    circle(655 - cloudX,106,60);
-    circle(686 - cloudX,126,30);
-    circle(697 - cloudX,76,70);
-    circle(733 - cloudX,77,30);
+    ellipse(655 - cloudX,106,60,60);
+    ellipse(686 - cloudX,126,30,30);
+    ellipse(697 - cloudX,76,70,70);
+    ellipse(733 - cloudX,77,30,30);
     ellipse(719 - cloudX,113,70,30);
-    circle(745 - cloudX,95,40);
+    ellipse(745 - cloudX,95,40,40);
     ellipse(727 - cloudX,130,70,20);
     ellipse(764 - cloudX,114,60,30);
     cloudX+=2;
@@ -198,6 +198,8 @@ void draw(){
   vertex(211,437);
   vertex(228,434);
   endShape();
+  System.out.println(mouseX);
+  System.out.println(mouseY);
 }
 }
 void mousePressed() {
