@@ -82,7 +82,7 @@ void draw(){
   curveVertex(635,346);
   curveVertex(585,356);
   endShape();  
-  
+ 
   //trees
   strokeWeight(2);
   fill(56,58,116);
@@ -182,7 +182,10 @@ void draw(){
   endShape();
   fill(160,149,175);
   beginShape();
-  vertex(227,430);
+  curveVertex(200,432);
+  curveVertex(221,430);
+  curveVertex(260,440);
+  curveVertex(280,481);
   curveVertex(190,470);
   curveVertex(259,441);
   curveVertex(286,476);
@@ -190,13 +193,12 @@ void draw(){
   curveVertex(300,577);
   curveVertex(298,596);
   curveVertex(304,605);
-  vertex(313,699);
-  vertex(161,697);
-  vertex(150,545);
-  vertex(167,471);
-  vertex(190,449);
-  vertex(211,437);
-  vertex(228,434);
+  curveVertex(313,770);
+  curveVertex(161,697);
+  curveVertex(150,545);
+  curveVertex(167,471);
+  curveVertex(190,449);
+  curveVertex(211,437);
   endShape();
 }
 void mousePressed() {
