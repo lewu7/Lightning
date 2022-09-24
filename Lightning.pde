@@ -198,8 +198,6 @@ void draw(){
   vertex(211,437);
   vertex(228,434);
   endShape();
-  System.out.println(mouseX);
-  System.out.println(mouseY);
 }
 }
 void mousePressed() {
